@@ -1,0 +1,619 @@
+0000.000 (0) Opened log file at time: Sat, 23 Mar 2024 04:56:13 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 48.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.033 (0) Free space on disk containing Updraft's temporary directory: 73000.1 MB
+0000.035 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: weekly)
+0000.035 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.037 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1711161839, seconds_ago=7934)
+0000.037 (0) Set semaphore last lock (f) time to 2024-03-23 04:56:13
+0000.038 (0) Semaphore lock (f) complete
+0000.040 (0) Backup run: resumption=0, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 300 seconds (1711170073) in case this run gets aborted
+0000.041 (0) Checking if we have a zip executable available
+0000.042 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.042 (0) Creation of backups of directories: beginning
+0000.044 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.122 (0) Total entities for the zip file: 802 directories, 3263 files (0 skipped as non-modified), 77.6 MB
+0000.131 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.132 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.134 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.136 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.138 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.139 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.140 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.142 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.143 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.143 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.8 MB, 3263 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.059 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: size is now: 3.50 MB
+0001.062 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1100 files added (on-disk size: 3553.7 KB)
+0001.064 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1200 files added (on-disk size: 3553.7 KB)
+0001.065 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1300 files added (on-disk size: 3553.7 KB)
+0001.067 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1400 files added (on-disk size: 3553.7 KB)
+0001.067 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 3263 files batched, 406 (1407) added so far); re-opening (prior size: 3553.7 KB)
+0002.149 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: size is now: 8.60 MB
+0002.151 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 20640.9 KB/s)
+0002.152 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2425129413605, normalised_time=1.2402579527076, max_time=2.1512680053711, data points known=1, old_max_bytes=26214400, new_max_bytes=126817489)
+0002.154 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1500 files added (on-disk size: 8807.4 KB)
+0002.155 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1600 files added (on-disk size: 8807.4 KB)
+0002.156 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1700 files added (on-disk size: 8807.4 KB)
+0002.157 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1800 files added (on-disk size: 8807.4 KB)
+0002.159 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 1900 files added (on-disk size: 8807.4 KB)
+0002.160 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2000 files added (on-disk size: 8807.4 KB)
+0002.162 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2100 files added (on-disk size: 8807.4 KB)
+0002.163 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2200 files added (on-disk size: 8807.4 KB)
+0002.164 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2300 files added (on-disk size: 8807.4 KB)
+0002.166 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2400 files added (on-disk size: 8807.4 KB)
+0002.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.9 MB, 3263 files batched, 1001 (2408) added so far); re-opening (prior size: 8807.4 KB)
+0004.393 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: size is now: 16.60 MB
+0004.397 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2500 files added (on-disk size: 16952.5 KB)
+0004.399 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2600 files added (on-disk size: 16952.5 KB)
+0004.400 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2700 files added (on-disk size: 16952.5 KB)
+0004.402 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2800 files added (on-disk size: 16952.5 KB)
+0004.404 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 2900 files added (on-disk size: 16952.5 KB)
+0004.405 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 3000 files added (on-disk size: 16952.5 KB)
+0004.407 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 3100 files added (on-disk size: 16952.5 KB)
+0004.408 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: 3200 files added (on-disk size: 16952.5 KB)
+0005.562 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.tmp: size is now: 20.00 MB
+0005.590 (0) Creating zip file manifest (backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip.list-temp.tmp)
+0005.602 (0) Successfully created zip file manifest (size: 260680)
+0005.874 (0) Created plugins zip (0) - 20493.4 KB in 5.8 s (3535.6 KB/s) (sha1: bf3b9a61ad41c8daca361e2583f9b59960e7d16e, sha256: 19917a0424cf834b1b1158b7b58c55373f73d6d678a6bc77aee86a038f27c822)
+0005.879 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0005.879 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+0005.880 (0) Google Drive: this account is not authorised
+0005.884 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.936 (0) Total entities for the zip file: 47 directories, 340 files (0 skipped as non-modified), 12.4 MB
+0005.938 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.940 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.941 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.612 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip.tmp: size is now: 11.00 MB
+0006.616 (0) Creating zip file manifest (backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip.list-temp.tmp)
+0006.617 (0) Successfully created zip file manifest (size: 23516)
+0006.736 (0) Created themes zip (0) - 11314.1 KB in 0.8 s (14044.5 KB/s) (sha1: 2ed3fa23d31ff2f3f7cc0f6dd3c944ada469d459, sha256: 24f4ec505124eaa0c7e71e2f57888a00aec60fbce4889b2183a7a9d478fb41a3)
+0006.737 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.738 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+0006.738 (0) Google Drive: this account is not authorised
+0006.741 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.742 (0) Looking for candidates to backup in: /home/n0203885/public_html/digital.north.imgd.ca/CVTLS/wp-content/uploads
+0006.742 (0) finding files: 2024: adding to list (1)
+0006.742 (0) finding files: elementor: adding to list (2)
+0006.743 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.781 (0) Total entities for the zip file: 6 directories, 6 files (0 skipped as non-modified), 0.1 MB
+0006.791 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip.tmp: size is now: 0.10 MB
+0006.792 (0) Creating zip file manifest (backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip.list-temp.tmp)
+0006.793 (0) Successfully created zip file manifest (size: 418)
+0006.797 (0) Created uploads zip (0) - 122.7 KB in 0 s (6998.9 KB/s) (sha1: 5ad7252b08bfd82109619d812c8c95f2ec5cc995, sha256: a448e2a9f0b9469920304e1bbd65c0ca35f348fea18c97b71e187445d1bdd6a8)
+0006.798 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.799 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+0006.799 (0) Google Drive: this account is not authorised
+0006.800 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0006.801 (0) Does not exist: /home/n0203885/public_html/digital.north.imgd.ca/CVTLS/wp-content/mu-plugins
+0006.804 (0) There are no mu-plugins to backup. Will not raise an error.
+0006.804 (0) mu-plugins: create_zip returned an error
+0006.805 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.806 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.806 (0) Looking for candidates to backup in: /home/n0203885/public_html/digital.north.imgd.ca/CVTLS/wp-content
+0006.807 (0) finding files: plugins: skipping: this is the plugins directory
+0006.807 (0) finding files: themes: skipping: this is the themes directory
+0006.807 (0) finding files: languages: adding to list (1)
+0006.808 (0) finding files: index.php: adding to list (2)
+0006.808 (0) finding files: uploads: skipping: this is the uploads directory
+0006.808 (0) finding files: upgrade: skipping: excluded by options
+0006.809 (0) finding files: upgrade-temp-backup: adding to list (3)
+0006.809 (0) finding files: updraft: skipping: this is the updraft directory
+0006.847 (0) Total entities for the zip file: 4 directories, 116 files (0 skipped as non-modified), 3.5 MB
+0006.849 (0) Zip: backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.065 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip.tmp: size is now: 0.80 MB
+0007.067 (0) Creating zip file manifest (backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip.list-temp.tmp)
+0007.068 (0) Successfully created zip file manifest (size: 7584)
+0007.082 (0) Created others zip (0) - 857.5 KB in 0.2 s (3610.1 KB/s) (sha1: fddec3b18d65cc1e15c112b175e40ebd639e24bb, sha256: 86edbb7ed2767356eedd65ca1221e7c57c1e8cdba9dbff647144af24cd1198b8)
+0007.084 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0007.084 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+0007.084 (0) Google Drive: this account is not authorised
+0007.087 (0) Saving backup status to database (elements: 8)
+0007.090 (0) No database backup (wp) - not part of this run
+0007.092 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.092 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.092 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.093 (0) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.093 (0) Saving backup history. Total backup size: 32 MB
+0007.095 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0007.097 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0007.098 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+0007.098 (0) Google Drive: this account is not authorised
+0007.099 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.100 (0) Number of backup sets in history: 5; groups (db): 1
+0007.101 (0) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+0007.101 (0) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+0007.101 (0) Examining (for databases) backup set with group_id=0, nonce=1caca2a2d8ff, datestamp=1710995936 (Mar 21 2024 04:38:56)
+0007.101 (0) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+0007.101 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.101 (0) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+0007.101 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.101 (0) Number of backup sets in history: 5; groups (files): 1
+0007.102 (0) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+0007.102 (0) This backup set is the backup set just made, so will not be deleted.
+0007.102 (0) This backup set is the backup set just made, so will not be deleted.
+0007.102 (0) This backup set is the backup set just made, so will not be deleted.
+0007.102 (0) This backup set is the backup set just made, so will not be deleted.
+0007.102 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.103 (0) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+0007.103 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0007.103 (0) Examining (for files) backup set with nonce=1caca2a2d8ff, datestamp=1710995936 (Mar 21 2024 04:38:56)
+0007.103 (0) plugins: over retain limit (2); will delete this file entity
+0007.103 (0) themes: over retain limit (2); will delete this file entity
+0007.103 (0) uploads: over retain limit (2); will delete this file entity
+0007.103 (0) others: over retain limit (2); will delete this file entity
+0007.103 (0) Delete file: backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-plugins.zip, service=googledrive
+0007.103 (0) Deleting local copy (backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-plugins.zip)
+0007.104 (0) Delete file: backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-themes.zip, service=googledrive
+0007.104 (0) Deleting local copy (backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-themes.zip)
+0007.104 (0) Delete file: backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-uploads.zip, service=googledrive
+0007.104 (0) Deleting local copy (backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-uploads.zip)
+0007.105 (0) Delete file: backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-others.zip, service=googledrive
+0007.105 (0) Deleting local copy (backup_2024-03-21-0038_CVTLS_1caca2a2d8ff-others.zip)
+0007.106 (0) Google Drive: this account is not authorised
+0007.106 (0) Google Drive: delete: failed due to storage error: not_authorized (Account is not authorised.)
+0007.108 (0) This backup set is now empty; will remove from history
+0007.108 (0) Deleting log file (log.1caca2a2d8ff.txt)
+0007.108 (0) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+0007.108 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.109 (0) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+0007.109 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0007.109 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0007.110 (0) Resume backup (214cd9d847f9, 0): finish run
+0007.111 (0) Decremented the semaphore (f) by 1
+0007.112 (0) Semaphore (f) unlocked
+0007.112 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0007.113 (0) No email will/can be sent - the user has not configured an email address.
+0007.113 (0) The backup has not finished; a resumption is scheduled.
+2008.439 (1) Opened log file at time: Sat, 23 Mar 2024 05:29:41 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+2008.439 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 48.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+2008.474 (1) Free space on disk containing Updraft's temporary directory: 72990.5 MB
+2008.475 (1) Requesting backup semaphore lock (214cd9d847f9)
+2008.475 (1) [Info] Lock (updraft_lock_dcde604a3efc, wp_options) acquired
+2008.476 (1) Backup run: resumption=1, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (2008s ago), job type=backup, previous check-in=7.11s
+2008.477 (1) Long time past since expected resumption time: approx expected=1711170080.2, now=1711171781.5, diff=1701.3
+2008.477 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2008.478 (1) Scheduling a resumption (2) after 300 seconds (1711172081) in case this run gets aborted
+2008.479 (1) Checking if we have a zip executable available
+2008.479 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+2008.480 (1) Creation of backups of directories: already finished
+2008.480 (1) Saving backup status to database (elements: 8)
+2008.481 (1) No database backup (wp) - not part of this run
+2008.482 (1) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2008.483 (1) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2008.483 (1) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2008.483 (1) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+2008.483 (1) Saving backup history. Total backup size: 32 MB
+2008.485 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+2008.486 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2008.486 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+2008.487 (1) Google Drive: this account is not authorised
+2008.488 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2008.488 (1) Number of backup sets in history: 4; groups (db): 1
+2008.489 (1) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+2008.489 (1) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+2008.489 (1) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+2008.489 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+2008.489 (1) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+2008.489 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+2008.489 (1) Number of backup sets in history: 4; groups (files): 1
+2008.489 (1) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+2008.489 (1) This backup set is the backup set just made, so will not be deleted.
+2008.490 (1) This backup set is the backup set just made, so will not be deleted.
+2008.490 (1) This backup set is the backup set just made, so will not be deleted.
+2008.490 (1) This backup set is the backup set just made, so will not be deleted.
+2008.490 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+2008.490 (1) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+2008.490 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+2008.490 (1) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+2008.490 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+2008.490 (1) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+2008.490 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+2008.491 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2008.492 (1) Resume backup (214cd9d847f9, 1): finish run
+2008.492 (1) [Info] Lock option (updraft_lock_dcde604a3efc, wp_options) released
+2008.493 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2008.493 (1) No email will/can be sent - the user has not configured an email address.
+2008.494 (1) The backup has not finished; a resumption is scheduled.
+5511.423 (2) Opened log file at time: Sat, 23 Mar 2024 06:28:04 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+5511.424 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 48.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+5511.474 (2) Free space on disk containing Updraft's temporary directory: 72732.8 MB
+5511.475 (2) Requesting backup semaphore lock (214cd9d847f9)
+5511.476 (2) [Info] Lock (updraft_lock_dcde604a3efc, wp_options) acquired
+5511.477 (2) Backup run: resumption=2, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (5511s ago), job type=backup
+5511.478 (2) Long time past since expected resumption time: approx expected=1711172081.5, now=1711175284.5, diff=3203
+5511.480 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5511.481 (2) Scheduling a resumption (3) after 300 seconds (1711175584) in case this run gets aborted
+5511.482 (2) Checking if we have a zip executable available
+5511.483 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+5511.483 (2) Creation of backups of directories: already finished
+5511.483 (2) Saving backup status to database (elements: 8)
+5511.485 (2) No database backup (wp) - not part of this run
+5511.486 (2) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5511.487 (2) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5511.487 (2) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5511.488 (2) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+5511.488 (2) Saving backup history. Total backup size: 32 MB
+5511.493 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+5511.494 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+5511.495 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+5511.496 (2) Google Drive: this account is not authorised
+5511.498 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5511.502 (2) Number of backup sets in history: 4; groups (db): 1
+5511.503 (2) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+5511.503 (2) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+5511.503 (2) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+5511.503 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5511.504 (2) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+5511.504 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5511.504 (2) Number of backup sets in history: 4; groups (files): 1
+5511.504 (2) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+5511.504 (2) This backup set is the backup set just made, so will not be deleted.
+5511.505 (2) This backup set is the backup set just made, so will not be deleted.
+5511.505 (2) This backup set is the backup set just made, so will not be deleted.
+5511.505 (2) This backup set is the backup set just made, so will not be deleted.
+5511.505 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5511.506 (2) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+5511.506 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+5511.506 (2) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+5511.506 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5511.507 (2) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+5511.507 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+5511.507 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5511.509 (2) Resume backup (214cd9d847f9, 2): finish run
+5511.510 (2) [Info] Lock option (updraft_lock_dcde604a3efc, wp_options) released
+5511.510 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5511.511 (2) No email will/can be sent - the user has not configured an email address.
+5511.512 (2) The backup has not finished; a resumption is scheduled.
+6657.171 (3) Opened log file at time: Sat, 23 Mar 2024 06:47:10 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+6657.171 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 48.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+6657.206 (3) Free space on disk containing Updraft's temporary directory: 72733.8 MB
+6657.207 (3) Requesting backup semaphore lock (214cd9d847f9)
+6657.207 (3) [Info] Lock (updraft_lock_dcde604a3efc, wp_options) acquired
+6657.208 (3) Backup run: resumption=3, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (6657s ago), job type=backup
+6657.209 (3) Long time past since expected resumption time: approx expected=1711175584.5, now=1711176430.3, diff=845.7
+6657.209 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+6657.210 (3) Scheduling a resumption (4) after 300 seconds (1711176730) in case this run gets aborted
+6657.211 (3) Checking if we have a zip executable available
+6657.211 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+6657.212 (3) Creation of backups of directories: already finished
+6657.212 (3) Saving backup status to database (elements: 8)
+6657.214 (3) No database backup (wp) - not part of this run
+6657.215 (3) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6657.216 (3) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+6657.216 (3) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6657.216 (3) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+6657.216 (3) Saving backup history. Total backup size: 32 MB
+6657.218 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+6657.219 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6657.219 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+6657.225 (3) Google Drive: this account is not authorised
+6657.228 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+6657.229 (3) Number of backup sets in history: 4; groups (db): 1
+6657.230 (3) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+6657.230 (3) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+6657.230 (3) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+6657.230 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+6657.231 (3) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+6657.231 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+6657.231 (3) Number of backup sets in history: 4; groups (files): 1
+6657.231 (3) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+6657.231 (3) This backup set is the backup set just made, so will not be deleted.
+6657.231 (3) This backup set is the backup set just made, so will not be deleted.
+6657.232 (3) This backup set is the backup set just made, so will not be deleted.
+6657.232 (3) This backup set is the backup set just made, so will not be deleted.
+6657.232 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+6657.232 (3) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+6657.232 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+6657.232 (3) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+6657.232 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+6657.232 (3) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+6657.232 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+6657.232 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+6657.234 (3) Resume backup (214cd9d847f9, 3): finish run
+6657.235 (3) [Info] Lock option (updraft_lock_dcde604a3efc, wp_options) released
+6657.235 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6657.236 (3) No email will/can be sent - the user has not configured an email address.
+6657.236 (3) The backup has not finished; a resumption is scheduled.
+11007.096 (4) Opened log file at time: Sat, 23 Mar 2024 07:59:40 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+11007.097 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 48.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+11007.132 (4) Free space on disk containing Updraft's temporary directory: 72723.3 MB
+11007.133 (4) Requesting backup semaphore lock (214cd9d847f9)
+11007.133 (4) [Info] Lock (updraft_lock_dcde604a3efc, wp_options) acquired
+11007.134 (4) Backup run: resumption=4, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (11007s ago), job type=backup
+11007.135 (4) Long time past since expected resumption time: approx expected=1711176730.3, now=1711180780.2, diff=4049.9
+11007.135 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+11007.136 (4) Scheduling a resumption (5) after 300 seconds (1711181080) in case this run gets aborted
+11007.137 (4) Checking if we have a zip executable available
+11007.137 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+11007.138 (4) Creation of backups of directories: already finished
+11007.138 (4) Saving backup status to database (elements: 8)
+11007.140 (4) No database backup (wp) - not part of this run
+11007.141 (4) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+11007.141 (4) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+11007.142 (4) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+11007.142 (4) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+11007.142 (4) Saving backup history. Total backup size: 32 MB
+11007.144 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+11007.145 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+11007.145 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+11007.146 (4) Google Drive: this account is not authorised
+11007.147 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+11007.147 (4) Number of backup sets in history: 4; groups (db): 1
+11007.148 (4) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+11007.148 (4) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+11007.148 (4) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+11007.148 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+11007.148 (4) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+11007.148 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+11007.148 (4) Number of backup sets in history: 4; groups (files): 1
+11007.148 (4) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+11007.148 (4) This backup set is the backup set just made, so will not be deleted.
+11007.148 (4) This backup set is the backup set just made, so will not be deleted.
+11007.148 (4) This backup set is the backup set just made, so will not be deleted.
+11007.148 (4) This backup set is the backup set just made, so will not be deleted.
+11007.149 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+11007.149 (4) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+11007.149 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+11007.149 (4) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+11007.149 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+11007.149 (4) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+11007.149 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+11007.149 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+11007.151 (4) Resume backup (214cd9d847f9, 4): finish run
+11007.151 (4) [Info] Lock option (updraft_lock_dcde604a3efc, wp_options) released
+11007.152 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+11007.153 (4) No email will/can be sent - the user has not configured an email address.
+11007.153 (4) The backup has not finished; a resumption is scheduled.
+14683.999 (5) Opened log file at time: Sat, 23 Mar 2024 09:00:57 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+14684.000 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+14684.045 (5) Free space on disk containing Updraft's temporary directory: 72592.1 MB
+14684.047 (5) Requesting backup semaphore lock (214cd9d847f9)
+14684.051 (5) [Debug] Lock option (updraft_lock_214cd9d847f9, wp_options) was created in the database
+14684.052 (5) [Info] Lock (updraft_lock_214cd9d847f9, wp_options) acquired after initialising the database
+14684.053 (5) Backup run: resumption=5, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (14684s ago), job type=backup
+14684.054 (5) Long time past since expected resumption time: approx expected=1711181080.2, now=1711184457.1, diff=3376.9
+14684.054 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+14684.056 (5) Scheduling a resumption (6) after 300 seconds (1711184757) in case this run gets aborted
+14684.069 (5) Checking if we have a zip executable available
+14684.069 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+14684.070 (5) Creation of backups of directories: already finished
+14684.070 (5) Saving backup status to database (elements: 8)
+14684.077 (5) No database backup (wp) - not part of this run
+14684.085 (5) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14684.087 (5) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14684.091 (5) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14684.093 (5) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+14684.095 (5) Saving backup history. Total backup size: 32 MB
+14684.099 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+14684.100 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+14684.101 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+14684.101 (5) Google Drive: this account is not authorised
+14684.101 (5) An error condition has occurred for the first time during this job
+14684.103 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14684.104 (5) Number of backup sets in history: 4; groups (db): 1
+14684.104 (5) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+14684.105 (5) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+14684.105 (5) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+14684.105 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+14684.105 (5) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+14684.105 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+14684.105 (5) Number of backup sets in history: 4; groups (files): 1
+14684.105 (5) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+14684.105 (5) This backup set is the backup set just made, so will not be deleted.
+14684.106 (5) This backup set is the backup set just made, so will not be deleted.
+14684.106 (5) This backup set is the backup set just made, so will not be deleted.
+14684.106 (5) This backup set is the backup set just made, so will not be deleted.
+14684.106 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+14684.106 (5) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+14684.106 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+14684.107 (5) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+14684.107 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+14684.107 (5) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+14684.107 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+14684.107 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+14684.109 (5) Resume backup (214cd9d847f9, 5): finish run
+14684.110 (5) [Info] Lock option (updraft_lock_214cd9d847f9, wp_options) released
+14684.110 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14684.111 (5) No email will/can be sent - the user has not configured an email address.
+14684.111 (5) The backup has not finished; a resumption is scheduled.
+16707.103 (6) Opened log file at time: Sat, 23 Mar 2024 09:34:40 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+16707.103 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+16707.150 (6) Free space on disk containing Updraft's temporary directory: 72593 MB
+16707.151 (6) Requesting backup semaphore lock (214cd9d847f9)
+16707.152 (6) [Info] Lock (updraft_lock_214cd9d847f9, wp_options) acquired
+16707.154 (6) Backup run: resumption=6, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (16707s ago), job type=backup
+16707.154 (6) Long time past since expected resumption time: approx expected=1711184757.1, now=1711186480.2, diff=1723.1
+16707.154 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+16707.155 (6) Scheduling a resumption (7) after 300 seconds (1711186780) in case this run gets aborted
+16707.164 (6) Checking if we have a zip executable available
+16707.165 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+16707.165 (6) Creation of backups of directories: already finished
+16707.166 (6) Saving backup status to database (elements: 8)
+16707.171 (6) No database backup (wp) - not part of this run
+16707.172 (6) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+16707.172 (6) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+16707.172 (6) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+16707.173 (6) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+16707.173 (6) Saving backup history. Total backup size: 32 MB
+16707.174 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+16707.175 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+16707.176 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+16707.176 (6) Google Drive: this account is not authorised
+16707.176 (6) An error condition has occurred for the first time during this job
+16707.177 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+16707.178 (6) Number of backup sets in history: 4; groups (db): 1
+16707.178 (6) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+16707.178 (6) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+16707.178 (6) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+16707.178 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+16707.179 (6) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+16707.179 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+16707.179 (6) Number of backup sets in history: 4; groups (files): 1
+16707.179 (6) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+16707.179 (6) This backup set is the backup set just made, so will not be deleted.
+16707.179 (6) This backup set is the backup set just made, so will not be deleted.
+16707.179 (6) This backup set is the backup set just made, so will not be deleted.
+16707.179 (6) This backup set is the backup set just made, so will not be deleted.
+16707.179 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+16707.180 (6) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+16707.180 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+16707.180 (6) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+16707.180 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+16707.180 (6) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+16707.180 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+16707.180 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+16707.181 (6) Resume backup (214cd9d847f9, 6): finish run
+16707.182 (6) [Info] Lock option (updraft_lock_214cd9d847f9, wp_options) released
+16707.182 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+16707.183 (6) No email will/can be sent - the user has not configured an email address.
+16707.184 (6) The backup has not finished; a resumption is scheduled.
+49287.469 (7) Opened log file at time: Sat, 23 Mar 2024 18:37:40 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+49287.484 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+49287.767 (7) Free space on disk containing Updraft's temporary directory: 72044.1 MB
+49287.771 (7) Requesting backup semaphore lock (214cd9d847f9)
+49287.781 (7) [Info] Lock (updraft_lock_214cd9d847f9, wp_options) acquired
+49287.782 (7) Backup run: resumption=7, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (49287s ago), job type=backup
+49287.783 (7) Long time past since expected resumption time: approx expected=1711186780.2, now=1711219060.5, diff=32280.3
+49287.783 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+49287.784 (7) Scheduling a resumption (8) after 300 seconds (1711219360) in case this run gets aborted
+49287.819 (7) Checking if we have a zip executable available
+49287.821 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+49287.821 (7) Creation of backups of directories: already finished
+49287.825 (7) Saving backup status to database (elements: 8)
+49287.833 (7) No database backup (wp) - not part of this run
+49287.835 (7) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+49287.835 (7) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+49287.835 (7) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+49287.836 (7) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+49287.836 (7) Saving backup history. Total backup size: 32 MB
+49287.838 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+49287.839 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+49287.839 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+49287.840 (7) Google Drive: this account is not authorised
+49287.840 (7) An error condition has occurred for the first time during this job
+49287.841 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+49287.843 (7) Number of backup sets in history: 4; groups (db): 1
+49287.845 (7) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49287.845 (7) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49287.845 (7) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49287.845 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+49287.846 (7) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49287.846 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+49287.846 (7) Number of backup sets in history: 4; groups (files): 1
+49287.846 (7) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49287.846 (7) This backup set is the backup set just made, so will not be deleted.
+49287.847 (7) This backup set is the backup set just made, so will not be deleted.
+49287.847 (7) This backup set is the backup set just made, so will not be deleted.
+49287.847 (7) This backup set is the backup set just made, so will not be deleted.
+49287.847 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+49287.847 (7) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49287.847 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+49287.847 (7) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49287.847 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+49287.848 (7) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49287.848 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+49287.848 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+49287.852 (7) Resume backup (214cd9d847f9, 7): finish run
+49287.853 (7) [Info] Lock option (updraft_lock_214cd9d847f9, wp_options) released
+49287.853 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+49287.856 (7) No email will/can be sent - the user has not configured an email address.
+49287.856 (7) The backup has not finished; a resumption is scheduled.
+49589.661 (8) Opened log file at time: Sat, 23 Mar 2024 18:42:42 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+49589.662 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+49589.710 (8) Free space on disk containing Updraft's temporary directory: 72042.2 MB
+49589.712 (8) Requesting backup semaphore lock (214cd9d847f9)
+49589.712 (8) [Info] Lock (updraft_lock_214cd9d847f9, wp_options) acquired
+49589.714 (8) Backup run: resumption=8, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (49589s ago), job type=backup
+49589.715 (8) Scheduling a resumption (9) after 300 seconds (1711219662) in case this run gets aborted
+49589.730 (8) Checking if we have a zip executable available
+49589.731 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+49589.732 (8) Creation of backups of directories: already finished
+49589.732 (8) Saving backup status to database (elements: 8)
+49589.740 (8) No database backup (wp) - not part of this run
+49589.743 (8) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+49589.744 (8) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+49589.744 (8) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+49589.745 (8) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+49589.746 (8) Saving backup history. Total backup size: 32 MB
+49589.749 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+49589.751 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+49589.751 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+49589.752 (8) Google Drive: this account is not authorised
+49589.752 (8) An error condition has occurred for the first time during this job
+49589.754 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+49589.755 (8) Number of backup sets in history: 4; groups (db): 1
+49589.756 (8) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49589.756 (8) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49589.756 (8) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49589.756 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+49589.757 (8) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49589.757 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+49589.757 (8) Number of backup sets in history: 4; groups (files): 1
+49589.757 (8) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49589.757 (8) This backup set is the backup set just made, so will not be deleted.
+49589.758 (8) This backup set is the backup set just made, so will not be deleted.
+49589.758 (8) This backup set is the backup set just made, so will not be deleted.
+49589.758 (8) This backup set is the backup set just made, so will not be deleted.
+49589.758 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+49589.758 (8) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49589.758 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+49589.758 (8) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49589.758 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+49589.759 (8) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49589.759 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+49589.759 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+49589.761 (8) Resume backup (214cd9d847f9, 8): finish run
+49589.762 (8) [Info] Lock option (updraft_lock_214cd9d847f9, wp_options) released
+49589.763 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+49589.764 (8) No email will/can be sent - the user has not configured an email address.
+49589.764 (8) The backup has not finished; a resumption is scheduled.
+49891.036 (9) Opened log file at time: Sat, 23 Mar 2024 18:47:44 +0000 on https://digital.north.aarora.imgd.ca/CVTLS
+49891.037 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.27 (cgi-fcgi, Linux lab.imgd.ca 3.10.0-862.11.6.el7.x86_64 #1 SMP Tue Aug 14 21:49:04 UTC 2018 x86_64) MySQL: 8.0.36 (max packet size=268435456) WPLANG: en_CA Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 46.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+49891.068 (9) Free space on disk containing Updraft's temporary directory: 72029.1 MB
+49891.069 (9) Requesting backup semaphore lock (214cd9d847f9)
+49891.070 (9) [Info] Lock (updraft_lock_214cd9d847f9, wp_options) acquired
+49891.071 (9) Backup run: resumption=9, nonce=214cd9d847f9, file_nonce=214cd9d847f9 begun at=1711169773 (49891s ago), job type=backup
+49891.071 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+49891.072 (9) Scheduling a resumption (10) after 300 seconds (1711219964); but the job will then be aborted unless something happens this time
+49891.081 (9) Creation of backups of directories: already finished
+49891.081 (9) Saving backup status to database (elements: 8)
+49891.089 (9) No database backup (wp) - not part of this run
+49891.090 (9) backup_2024-03-23-0056_CVTLS_214cd9d847f9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+49891.091 (9) backup_2024-03-23-0056_CVTLS_214cd9d847f9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+49891.091 (9) backup_2024-03-23-0056_CVTLS_214cd9d847f9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+49891.091 (9) backup_2024-03-23-0056_CVTLS_214cd9d847f9-others.zip: others: This file has not yet been successfully uploaded: will queue
+49891.091 (9) Saving backup history. Total backup size: 32 MB
+49891.093 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+49891.094 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+49891.094 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c1030a9aa809ac091aa0c1406882d663)
+49891.094 (9) Google Drive: this account is not authorised
+49891.095 (9) An error condition has occurred for the first time during this job
+49891.096 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+49891.096 (9) Number of backup sets in history: 4; groups (db): 1
+49891.097 (9) Examining (for databases) backup set with group_id=0, nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49891.097 (9) Examining (for databases) backup set with group_id=0, nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49891.097 (9) Examining (for databases) backup set with group_id=0, nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49891.097 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+49891.097 (9) Examining (for databases) backup set with group_id=0, nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49891.097 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+49891.097 (9) Number of backup sets in history: 4; groups (files): 1
+49891.097 (9) Examining (for files) backup set with nonce=214cd9d847f9, datestamp=1711169773 (Mar 23 2024 04:56:13)
+49891.097 (9) This backup set is the backup set just made, so will not be deleted.
+49891.098 (9) This backup set is the backup set just made, so will not be deleted.
+49891.098 (9) This backup set is the backup set just made, so will not be deleted.
+49891.098 (9) This backup set is the backup set just made, so will not be deleted.
+49891.098 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+49891.098 (9) Examining (for files) backup set with nonce=dcde604a3efc, datestamp=1711161838 (Mar 23 2024 02:43:58)
+49891.098 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+49891.098 (9) Examining (for files) backup set with nonce=b3621e5185eb, datestamp=1710874905 (Mar 19 2024 19:01:45)
+49891.098 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+49891.098 (9) Examining (for files) backup set with nonce=01d3725b1067, datestamp=1710794300 (Mar 18 2024 20:38:20)
+49891.098 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+49891.099 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+49891.100 (9) Resume backup (214cd9d847f9, 9): finish run
+49891.100 (9) [Info] Lock option (updraft_lock_214cd9d847f9, wp_options) released
+49891.101 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+49891.101 (9) No email will/can be sent - the user has not configured an email address.
+49891.102 (9) The backup attempt has finished, apparently unsuccessfully
